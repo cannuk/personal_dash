@@ -1,0 +1,26 @@
+<script type='text/javascript'>
+    $(function() {
+        // These settings override the defaults set in application.coffee. You can do this on a per dashboard basis.
+        Dashing.widget_base_dimensions = [370, 340]
+        Dashing.numColumns = 5
+    });
+</script>
+<div class="gridster">
+  <ul>
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="NPR-Headlines" data-view="News" data-title="NPR Headlines" data-interval="30"></div>
+    </li>
+    <li data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="bart" data-view="Bart" data-title="Bart" data-interval="30"></div>
+    </li>
+    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="forecast-sanfrancisco" data-view="Forecast" data-widget_title="San Francisco"> ></div>
+    </li>
+    <li data-row="2" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="forecast-sanbruno" data-view="Forecast" data-widget_title="San Bruno"> ></div>
+    </li>
+    <li data-row="2" data-col="3" data-sizex="1" data-sizey="1">
+      <div data-id="forecast-mp" data-view="Forecast" data-widget_title="Marley Park"> ></div>
+    </li>
+  </ul>
+</div>
